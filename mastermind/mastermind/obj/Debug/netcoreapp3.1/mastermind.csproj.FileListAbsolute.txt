@@ -1,0 +1,4 @@
+C:\Users\180229\Desktop\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.csprojAssemblyReference.cache
+C:\Users\180229\Desktop\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.AssemblyInfoInputs.cache
+C:\Users\180229\Desktop\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.AssemblyInfo.cs
+C:\Users\180229\Desktop\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.csproj.CoreCompileInputs.cache
