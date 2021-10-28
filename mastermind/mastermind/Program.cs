@@ -25,18 +25,33 @@ namespace mastermind
 
         static void Main(string[] args)
         {
-            int[] combi;
+            
+                string combinaison;
+                Console.WriteLine("Entrez vos 4 nombre");
+                combinaison = Console.ReadLine();
+            }
 
-            Console.WriteLine("Encodez le nombre");
-            combi = int.Parse(Console.ReadLine());
+            static void StringToArray(string combinaison, out int[] propo)
+        propo = new int[4];
+            for (int int n = 0; n <= 3; n++) ;
+            propo[0] = combinaison[0];
 
-            mastermind(out combi);
-
-            Console.WriteLine($"Le nombre est: {combi}");
-            Console.ReadLine();
+            stringToArray(combinaison, out propo);
+            Afficher(proposition);
 
 
+            {
+                int[] combi;
+                int[] propo;
+                Console.WriteLine("Encodez le nombre");
+                combi = int.Parse(Console.ReadLine());
 
-        }
-    }
+                mastermind(out combi);
+
+                Console.WriteLine($"Le nombre est: {combi}");
+                Console.ReadLine();
+            /* petit commentaire */
+
+            }
+}
 }
